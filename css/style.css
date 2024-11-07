@@ -167,3 +167,53 @@ body {
   background-color: #383131; 
   
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styling */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Container Width */
+  .container {
+    width: 100%;     /* Full width for mobile */
+    padding: 15px;
+  }
+  
+  /* Headings and Text */
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  /* Images */
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Navbar (Optional) */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}
