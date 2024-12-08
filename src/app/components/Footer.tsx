@@ -92,7 +92,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="mt-10 border-t pt-4 text-center text-sm text-gray-500">
-          Made With Love By Finland All Right Reserved
+          ©Made by Taha Siddiqui, Designed by Taha Siddiqui
         </div>
       </div>
     </footer>
